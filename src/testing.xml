@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Automation Suite" thread-count="1" parallel="tests">
+    <test name="Sorting" parallel="tests" >
+        <classes>
+            <class name="Amazon.LanguageCheckRTL"/>
+            <class name="Amazon.FilterPriceRange"/>
+            <class name="Amazon.AddItemIntoCart"/>
+            <class name="Amazon.BrandApple"/>
+            <class name="Amazon.SignUpFunctionality"/>
+        </classes>
+    </test>
+</suite>
