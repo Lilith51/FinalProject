@@ -1,4 +1,5 @@
-package Amazon;
+package AmazonStepObject;
+import AmazonDataObject.DashboardVariables;
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
 import io.qameta.allure.Step;
@@ -8,8 +9,8 @@ import static com.codeborne.selenide.Selectors.byXpath;
 import static com.codeborne.selenide.Selenide.sleep;
 import static java.util.Objects.isNull;
 
-public class StepObject extends DashboardVariables{
-    SoftAssert softAssert = new SoftAssert();
+public class StepObject extends DashboardVariables {
+    public SoftAssert softAssert = new SoftAssert();
 
     @Step("Open left navigation and choose sub category")
     public void childNavigator(String menu, Integer li) {

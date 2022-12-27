@@ -1,4 +1,5 @@
 package Amazon;
+import AmazonStepObject.StepObject;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import static com.codeborne.selenide.Selenide.*;

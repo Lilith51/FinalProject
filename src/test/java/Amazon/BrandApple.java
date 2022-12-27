@@ -1,4 +1,5 @@
 package Amazon;
+import AmazonStepObject.StepObject;
 import com.codeborne.selenide.Condition;
 import org.testng.annotations.Test;
 import static com.codeborne.selenide.Condition.visible;

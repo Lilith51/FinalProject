@@ -1,4 +1,5 @@
 package Amazon;
+import AmazonDataObject.SignUpVariables;
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
 import org.testng.Assert;
