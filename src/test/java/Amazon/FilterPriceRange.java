@@ -1,4 +1,5 @@
 package Amazon;
+import AmazonStepObject.StepObject;
 import org.testng.annotations.Test;
 import static com.codeborne.selenide.Selenide.sleep;
 public class FilterPriceRange extends StepObject {
